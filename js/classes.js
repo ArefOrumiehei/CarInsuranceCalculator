@@ -1,4 +1,4 @@
-// creat calculate insurance
+// Create Calculate Insurance
 class Insurance{
     constructor(model , year , level){
         this.model = model ,
@@ -57,9 +57,9 @@ class Insurance{
 
 
 
-// creat HTMLUI object
+// Create HTMLUI object
 class HTMLUI{
-    // creat <option> tag for show years
+    // Create <option> tag for show years
     displayYear(){
     // get now persian date and convert to english numbers
     let nowDate = new Date().toLocaleDateString('fa-IR') 
@@ -79,7 +79,7 @@ class HTMLUI{
     }
 
 
-  // creat other proto for convert year
+  // Create other proto for convert year
     convertNums(nowYear){
     // convert persian numbers to english numbers
     var

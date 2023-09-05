@@ -1,7 +1,5 @@
 body {
-    background: #e96443;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #904e95, #e96443); 
+    background: url(../assets/img/stacked-steps-haikei.png);
     direction: rtl;
     font-family: vazir-medium;
 }
@@ -94,9 +92,9 @@ input[type="radio"]{
     font-family: Vazir;
     src: url('Vazir-Bold.eot');
     src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'),
-         url('Vazir-Bold.woff2') format('woff2'),
-         url('Vazir-Bold.woff') format('woff'),
-         url('Vazir-Bold.ttf') format('truetype');
+        url('Vazir-Bold.woff2') format('woff2'),
+        url('Vazir-Bold.woff') format('woff'),
+        url('Vazir-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
